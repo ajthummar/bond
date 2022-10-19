@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Mirrored from www.w3schools.com/default.asp?remote={{remoteName}} by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Sep 2021 10:04:23 GMT -->
 <head>
 <title>W3Schools Online Web Tutorials</title>
 <meta charset="utf-8">
@@ -40,23 +39,6 @@ function gTra(el) {
   open_translate(el);
 };
 
-
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-3855518-1', 'auto');
-ga('require', 'displayfeatures');
-ga('require', 'GTM-WJ88MZ5');
-ga('send', 'pageview');
-</script>
-<style>
-/* Customize w3schools23.css */
-#nav_tutorials,
-#nav_references,
-#nav_exercises {
-  margin-top: 0;
-}
 
 @media screen and (min-width: 769px) {
   .w3-bar-block .w3-button {
@@ -190,6 +172,41 @@ h1 {
 .mystyle,.mystyle:hover {
   background-color: #282A35!important;
   color:white!important;
+}
+
+  @media screen and (min-width: 769px) {
+  .w3-bar-block .w3-button {
+    padding: 0 16px !important;
+  }
+}
+
+.fa {
+  font-size: 20px;
+}
+
+#main {
+  padding: 0;
+  border-right: none;
+}
+
+.fa-thumbs-o-up:hover {
+  color: #fff;
+}
+
+@media (min-width:1675px) {
+  #main {
+    width: auto;
+  }
+}
+
+#nav_tutorials,
+#nav_references,
+#nav_exercises {
+  display: none;
+  padding-bottom: 40px;
+  position: absolute;
+  width: 100%;
+  z-index: 5 !important;
 }
 
 .closenav_span:hover {
